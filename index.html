@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Sitio Web</a>
+            <button title="Boton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link current-page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Pagina 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Pagina 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">Pagina 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="alert alert-success">
+            <h1 class="display-4">Bienvenido a la Página Principal</h1>
+            <p class="lead">Explora información básica sobre tecnología, naturaleza y arte.</p>
+        </div>
+        
+        <div class="category-section tech-section">
+            <h2 class="text-center mb-4">Tecnología</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="imagenes/Tecnologia1.jpg" class="img-fluid content-img rounded" alt="Tecnología">
+                    <h4>Inteligencia Artificial</h4>
+                    <p>La IA simula procesos de inteligencia humana mediante máquinas. Actualmente se usa en reconocimiento de voz, toma de decisiones y más.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/programacion.jpg" class="img-fluid content-img rounded" alt="Programación">
+                    <h4>Programación</h4>
+                    <p>Es el proceso de crear instrucciones para que las computadoras ejecuten tareas. Lenguajes populares incluyen Python, JavaScript y Java.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/internet.jpg" class="img-fluid content-img rounded" alt="Internet">
+                    <h4>Internet</h4>
+                    <p>Red global que conecta millones de dispositivos. Fundamental para comunicación, educación y negocios en el mundo moderno.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section nature-section mt-5">
+            <h2 class="text-center mb-4">Naturaleza</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="imagenes/tropical1.jpg" class="img-fluid content-img rounded" alt="Bosques">
+                    <h4>Bosques</h4>
+                    <p>Los bosques son los pulmones del planeta, producen oxígeno y albergan el 80% de la biodiversidad terrestre.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/naturaleza2.jpg" class="img-fluid content-img rounded" alt="Océanos">
+                    <h4>Océanos</h4>
+                    <p>Cubren el 71% de la superficie terrestre y regulan el clima. Son fuente de alimento para millones de personas.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/animal.jpg" class="img-fluid content-img rounded" alt="Animales">
+                    <h4>Animales</h4>
+                    <p>Existen aproximadamente 8.7 millones de especies, muchas aún por descubrir. La biodiversidad es esencial para los ecosistemas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section art-section mt-5">
+            <h2 class="text-center mb-4">Arte</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="imagenes/arte-1.jpg" class="img-fluid content-img rounded" alt="Pintura">
+                    <h4>Pintura</h4>
+                    <p>Expresión artística que utiliza pigmentos sobre superficies. Incluye estilos como el óleo, acuarela y técnicas modernas.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/arte digital.jpg" class="img-fluid content-img rounded" alt="Arte Digital">
+                    <h4>Arte Digital</h4>
+                    <p>Nueva forma de creación artística que utiliza tecnología digital como herramienta para la producción o exhibición.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/escultura.jpg" class="img-fluid content-img rounded" alt="Escultura">
+                    <h4>Escultura</h4>
+                    <p>Arte de crear formas tridimensionales. Materiales comunes incluyen mármol, bronce, madera y actualmente materiales modernos.</p>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Explora más</h5>
+                <p class="card-text">Visita nuestras páginas especializadas para más información sobre cada tema.</p>
+                <div class="d-flex justify-content-between">
+                    <a href="pagina1.html" class="btn btn-primary">Tecnología</a>
+                    <a href="pagina2.html" class="btn btn-success">Naturaleza</a>
+                    <a href="pagina3.html" class="btn btn-warning">Arte</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress mt-4 mb-5">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Contenido completo</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
