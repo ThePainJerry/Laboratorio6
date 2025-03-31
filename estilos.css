@@ -1,0 +1,9 @@
+.current-page {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.content-img {
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
